@@ -1,0 +1,44 @@
+.button {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  padding: 4px 8px;
+  height: 48px;
+  min-width: 120px;
+  opacity: 0.8;
+  background-color: var(--custom-btn-bg-color);
+  color: var(--custom-btn-color);
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button:hover {
+  opacity: 1;
+}
+.button:hover {
+  opacity: 1;
+}
+
+.button.autumn {
+  --custom-btn-bg-color: #106b87;
+  --custom-btn-color: #000000;
+  border-color: #260d33;
+}
+
+.button.summer {
+  --custom-btn-bg-color: #ff6600;
+  --custom-btn-color: #000000;
+  border-color: #d31900;
+}
+
+.button.spring {
+  --custom-btn-bg-color: #fc9d9a;
+  --custom-btn-color: #000000;
+  border-color: #fe4365;
+}

@@ -1,0 +1,15 @@
+/* Default theme */
+:root {
+  --custom-btn-bg-color: rgb(55, 114, 222);
+  --custom-btn-color: rgb(134, 206, 33);
+}
+
+custom-button[data-theme="summer"] {
+  --custom-btn-bg-color: rgb(222, 24, 114);
+  --custom-btn-color: rgb(143, 218, 43);
+}
+
+custom-button[data-theme="spring"] {
+  --custom-btn-bg-color: rgb(199, 206, 57);
+  --custom-btn-color: rgb(179, 29, 225);
+}
